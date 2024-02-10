@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
-    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
   </head>
   <body>
     <!--header -->
@@ -13,42 +13,67 @@
       <!--header__menu-->
       <div class="header__menu">
         <ul class="header__menu_list">
-          <li class="header__links-list-item_no-bullit">
-            <a class="header__menu_list_item" href="#0"> главная </a>
+          <li class="list-item_no-bullit">
+            <a class="header__menu_list_item text_no-underline" href="#0">
+              главная
+            </a>
           </li>
           <li>
-            <a class="header__menu_list_item" href="#0"> посмотреть лоты </a>
+            <a
+              class="header__menu_list_item text_custom-underline text_no-underline"
+              href="#0"
+            >
+              посмотреть лоты
+            </a>
           </li>
           <li>
-            <a class="header__menu_list_item" href="#0"> об аукционе </a>
+            <a
+              class="header__menu_list_item text_custom-underline text_no-underline"
+              href="#0"
+            >
+              об аукционе
+            </a>
           </li>
         </ul>
       </div>
       <!--header__logo-->
       <a class="header__logo">
-        <img class="header__logo-image" src="./images/logo-black.svg" />
+        <img class="header__logo-image" src="./images/logo-black.svg" alt="логотип - оно тебе надо"/>
       </a>
       <!--header__address-->
       <address class="header__address">
-        <a href="tel:+99995555555"> +9 999 555 5555 </a>
-        <a href="mailto=info@sobaka.ge"> info@sobaka.ge </a>
+        <a
+          href="tel:+99995555555"
+          class="header__address_tel text_custom-underline text_no-underline"
+        >
+          +9 999 555 5555
+        </a>
+        <a
+          href="mailto=info@sobaka.ge"
+          class="text_custom-underline text_no-underline"
+        >
+          info@sobaka.ge
+        </a>
         наб. Принсенграхт 263- 265, Амстердам
       </address>
     </header>
-
     <main>
       <!--cover-->
       <section class="cover">
         <!--cover__title-->
         <h1 class="cover__title">
-          <span class="aligned-text">
-            ОН
+          <span class="aligned-text word-spacing-1">
+            <span class="letter-spacing-1">ОН</span>
             <span>О</span>
           </span>
-          <span class="aligned-text aligned-text_center">
-            ТЕБ <span class="word-spacing">Е</span>
+          <span class="aligned-text_center word-spacing-1">
+            <span class="letter-spacing-1">ТЕБ</span>
+            <span>Е</span>
           </span>
-          <span class="aligned-text aligned-text_right"> Н АДО </span>
+          <span class="aligned-text_right">
+            <span>Н</span>
+            <span class="letter-spacing-1">АДО</span>
+          </span>
         </h1>
         <!--cover__description-->
         <div class="cover__description">
@@ -117,7 +142,7 @@
       <section class="about">
         <!--about__logo-->
         <div class="about__logo">
-          <img class="about__logo-image" src="./images/logo-white.svg"/>
+          <img class="about__logo-image" src="./images/logo-white.svg" alt="логотип - оно тебе надо"/>
         </div>
         <!--about__column-->
         <div class="about__column">
@@ -142,35 +167,57 @@
     </main>
     <footer class="footer">
       <!--footer__address-->
-      <address class="address">
-        <a href="tel:+99995555555"> +9 999 555 5555 </a>
-        <a href="mailto=info@sobaka.ge"> info@sobaka.ge </a>
+      <address class="footer__address">
+        <a
+          href="tel:+99995555555"
+          class="text_custom-underline text_no-underline footer__address_tel"
+        >
+          +9 999 555 5555
+        </a>
+        <a
+          href="mailto=info@sobaka.ge"
+          class="text_custom-underline text_no-underline"
+        >
+          info@sobaka.ge
+        </a>
         наб. Принсенграхт 263- 265, Амстердам
       </address>
       <!--footer__menu-->
       <div class="footer__menu">
         <ul class="footer__menu_list">
-          <li class="header__links-list-item_no-bullit">
-            <a class="header__menu_list_item" href="#0"> главная </a>
+          <li class="">
+            <a class="footer__menu_list_item text_no-underline" href="#0">
+              главная
+            </a>
           </li>
           <li>
-            <a class="header__menu_list_item" href="#0"> посмотреть лоты </a>
+            <a
+              class="footer__menu_list_item text_no-underline text_custom-underline"
+              href="#0"
+            >
+              посмотреть лоты
+            </a>
           </li>
           <li>
-            <a class="header__menu_list_item" href="#0"> об аукционе </a>
+            <a
+              class="footer__menu_list_item text_no-underline text_custom-underline"
+              href="#0"
+            >
+              об аукционе
+            </a>
           </li>
         </ul>
       </div>
       <!--footer__social-links-->
       <div class="footer__social-links">
         <a class="footer__social-links_youtube">
-          <img src="./images/yt.svg"/>
+          <img class="footer__social-links_icon" src="./images/yt.svg" alt="иконка ютуб"/>
         </a>
         <a class="footer__social-links_vk">
-          <img src="./images/vk.svg"/>
+          <img class="footer__social-links_icon" src="./images/vk.svg" alt="иконка вк"/>
         </a>
         <a class="footer__social-links_pinterest">
-          <img src="./images/pinterest.svg"/>
+          <img class="footer__social-links_icon" src="./images/pinterest.svg" alt="иконка пинтерест"/>
         </a>
       </div>
     </footer>

@@ -13,19 +13,17 @@
 
 .lots__card-list {
   display: flex;
+  flex-grow: 1;
+  flex-wrap: wrap;
   list-style-type: none;
-  column-gap: 25px;
+  gap: 25px 25px;
   color: white;
   padding-top: 27px;
   padding-bottom: 30px;
 }
 
 .lots__card-list-item {
-  width: 34%;
-}
-
-.card__link {
-
+  max-width: 334px;
 }
 
 .card {
@@ -41,6 +39,20 @@
   padding: 51px 40px 48px 40px;
   position: relative;
   z-index: -2;
+}
+
+/*pseudo-element for creating an overlay (darkening background).
+Z-index: -1 here and z-index: -2 in card class to push text in a block to the top level*/
+
+.card::after {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: -1;
+  content: "";
 }
 
 .card_type_film {

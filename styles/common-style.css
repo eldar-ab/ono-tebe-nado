@@ -1,0 +1,11 @@
+.list-item_no-bullit {
+  list-style-type: none;
+}
+
+.text_no-underline {
+  text-decoration: none;
+}
+
+.text_custom-underline {
+  border-bottom: 1px solid black;
+}

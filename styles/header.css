@@ -26,12 +26,6 @@
   padding-left: 0;
 }
 
-
-.header__links-list-item_no-bullit {
-  text-decoration: none;
-  list-style-type: none;
-}
-
 .header__logo {
   display: flex;
   justify-content: center;
@@ -56,4 +50,8 @@
   align-items: start;
   line-height: 24px;
   font-style: normal;
+}
+
+.header__address_tel {
+  line-height: 20px;
 }

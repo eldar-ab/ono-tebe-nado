@@ -15,6 +15,8 @@
 * Grid Layout
 * FlexBox
 
-**Ссылка на GitHub Pages**
+**Ссылка на репозиторий GitHub**
+* [Репозиторий ОНО ТЕБЕ НАДО]( https://github.com/eldar-ab/ono-tebe-nado)
 
+**Ссылка на GitHub Pages**
 * [ОНО ТЕБЕ НАДО]( https://eldar-ab.github.io/ono-tebe-nado/)

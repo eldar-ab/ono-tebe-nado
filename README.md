@@ -6,7 +6,7 @@
 
 **Интро**
 
-Аукцион вещей, в которые никто неверил.
+Аукцион вещей, в которые никто не верил.
 
 **Технологии использованные в проекте**
 * HTML 5
@@ -16,10 +16,10 @@
 * FlexBox
 
 <!-- **Ссылка на GitHub Pages**
-* [ОНО ТЕБЕ НАДО]( https://eldar-ab.github.io/ono-tebe-nado/) -->
+* [ОНО ТЕБЕ НАДО]( https://eldar-ab.github.io/ono-tebe-nado/)
 
 
 **Ссылка на репозиторий GitHub**
-* [Репозиторий ОНО ТЕБЕ НАДО]( https://github.com/eldar-ab/ono-tebe-nado)
+* [Репозиторий ОНО ТЕБЕ НАДО]( https://github.com/eldar-ab/ono-tebe-nado)-->
 
 https://github.com/eldar-ab/ono-tebe-nado

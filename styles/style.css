@@ -72,6 +72,7 @@
   font-size: 100px;
   line-height: 115%;
   letter-spacing: 30px;
+  text-transform: uppercase;
   z-index: 1;
 }
 
@@ -106,6 +107,7 @@
   line-height: 28px;
   word-spacing: 19px;
   font-size: 22px;
+  text-transform: uppercase;
 }
 
 .bet__button {
@@ -117,7 +119,10 @@
   background-color: transparent;
   border: 1px solid white;
   font-size: 22px;
+  font-family: Raleway, sans-serif;
   line-height: 26px;
+  text-transform: uppercase;
+  cursor: pointer;
 }
 
 .lots {
@@ -131,6 +136,7 @@
   font-size: 40px;
   font-weight: bold;
   padding-left: 39px;
+  text-transform: uppercase;
 }
 
 .lots__card-list {
@@ -181,6 +187,7 @@
   font-size: 22px;
   line-height: 120%;
   text-decoration: underline;
+  text-transform: uppercase;
   z-index: 1;
 }
 
@@ -229,6 +236,7 @@
 .about__title {
   font-size: 40px;
   font-weight: bold;
+  text-transform: uppercase;
   padding-bottom: 100px;
   padding-top: 102px;
 }
